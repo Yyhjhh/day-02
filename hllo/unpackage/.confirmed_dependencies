@@ -1,0 +1,39 @@
+{
+	"index.html": {
+		"resources": [
+			"css/common.css",
+			"js/update.js",
+			"js/shortcut.js",
+			"js/immersed.js"
+		],
+		"refer": [
+			"plus/accelerometer.html",
+			"plus/webview.html"
+		]
+	},
+	"plus/accelerometer_shake.html": {
+		"resources": [
+			"img/shake/1.jpg",
+			"img/shakedown.png",
+			"img/shakeup.png"
+		]
+	},
+	"plus/accelerometer.html": {
+		"resources": [
+			"js/common.js"
+		],
+		"refer": [
+			"plus/accelerometer_shake.html"
+		]
+	},
+	"plus/webview.html": {
+		"refer": [
+			"plus/webview_mask.html"
+		]
+	},
+	"plus/webview_mask.html": {
+		"refer": [
+			"plus/webview_mask_side.html"
+		]
+	}
+}
